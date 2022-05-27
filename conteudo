@@ -2,18 +2,38 @@
 fatiamento 
 append, insert, pop, del, clear, extend, + 
 min, max
-'''  
+'''
 
-secreto = 'perfume' 
+secreto = 'perfume'
 digitadas = []
 
-while True: 
+while True:
     letra = input('Digite uma letra: ')
 
     if len(letra) > 1:
         print('Ahhh isso nao vale, digite apenas uma letra.')
         continue
     digitadas.append(letra)
-    
-    if letra in secreto: 
+
+    if letra in secreto:
         print('UHUUUU')
+
+frase = 'o rato roeu a roupa do rei de roma'
+tamanho_frase = len(frase)
+contador = 0
+nova_string = ''
+
+input_do_usuario = input()
+
+while contador < tamanho_frase:
+    # print(frase[contador], contador)
+    if letra == 'r':
+        nova_string += 'R'
+    else:
+        nova_string
+
+    nova_string += frase[contador]
+    contador += 1
+    print(nova_string)
+
+print(nova_string)
