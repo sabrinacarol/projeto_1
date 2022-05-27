@@ -15,12 +15,21 @@ while True:
         continue
     digitadas.append(letra)
 
+<<<<<<< Updated upstream
     if letra in secreto:
         print('UHUUUU')
 
 frase = 'o rato roeu a roupa do rei de roma'
 tamanho_frase = len(frase)
 contador = 0
+=======
+    if letra in secreto: 
+        print('UHUUUU')
+
+frase = 'o rato roeu a roupa do rei de roma' 
+tamanho_frase = len(frase)
+contador = 0 
+>>>>>>> Stashed changes
 nova_string = ''
 
 input_do_usuario = input()
@@ -30,6 +39,7 @@ while contador < tamanho_frase:
     if letra == 'r':
         nova_string += 'R'
     else:
+<<<<<<< Updated upstream
         nova_string
 
     nova_string += frase[contador]
@@ -37,3 +47,12 @@ while contador < tamanho_frase:
     print(nova_string)
 
 print(nova_string)
+=======
+        nova_string    
+
+    nova_string += frase[contador]
+    contador += 1
+    print(nova_string)   
+
+print(nova_string)         
+>>>>>>> Stashed changes
