@@ -1,0 +1,19 @@
+''' lista em python 
+fatiamento 
+append, insert, pop, del, clear, extend, + 
+min, max
+'''  
+
+secreto = 'perfume' 
+digitadas = []
+
+while True: 
+    letra = input('Digite uma letra: ')
+
+    if len(letra) > 1:
+        print('Ahhh isso nao vale, digite apenas uma letra.')
+        continue
+    digitadas.append(letra)
+    
+    if letra in secreto: 
+        print('UHUUUU')
